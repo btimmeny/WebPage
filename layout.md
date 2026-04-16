@@ -67,8 +67,8 @@ This document defines the layout standards for the WebPage project.
 
 | Purpose        | Tailwind Class        |
 |----------------|-----------------------|
-| Primary        | `bg-red-600`          |
-| Primary hover  | `hover:bg-red-700`    |
+| Primary        | `bg-blue-600`         |
+| Primary hover  | `hover:bg-blue-700`   |
 | Background     | `bg-white`            |
 | Alt background | `bg-gray-50`          |
 | Text primary   | `text-gray-900`       |

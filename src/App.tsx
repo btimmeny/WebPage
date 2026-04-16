@@ -11,24 +11,24 @@ function App() {
       <header className="fixed top-0 left-0 right-0 bg-white shadow-sm z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-8">
           <div className="flex items-center justify-between h-16">
-            <a href="#" className="text-xl font-bold text-red-600">
+            <a href="#" className="text-xl font-bold text-blue-600">
               WebPage
             </a>
 
             {/* Desktop Nav */}
             <nav className="hidden md:flex items-center gap-8">
-              <a href="#features" className="text-sm font-medium text-gray-700 hover:text-red-600 transition-colors">
+              <a href="#features" className="text-sm font-medium text-gray-700 hover:text-blue-600 transition-colors">
                 Features
               </a>
-              <a href="#about" className="text-sm font-medium text-gray-700 hover:text-red-600 transition-colors">
+              <a href="#about" className="text-sm font-medium text-gray-700 hover:text-blue-600 transition-colors">
                 About
               </a>
-              <a href="#contact" className="text-sm font-medium text-gray-700 hover:text-red-600 transition-colors">
+              <a href="#contact" className="text-sm font-medium text-gray-700 hover:text-blue-600 transition-colors">
                 Contact
               </a>
               <a
                 href="#contact"
-                className="bg-red-600 hover:bg-red-700 text-white text-sm font-medium px-6 py-2 rounded-lg transition-colors"
+                className="bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium px-6 py-2 rounded-lg transition-colors"
               >
                 Get Started
               </a>
@@ -47,18 +47,18 @@ function App() {
           {/* Mobile Nav */}
           {mobileMenuOpen && (
             <nav className="md:hidden pb-4 border-t border-gray-200 pt-4 flex flex-col gap-4">
-              <a href="#features" className="text-sm font-medium text-gray-700 hover:text-red-600" onClick={() => setMobileMenuOpen(false)}>
+              <a href="#features" className="text-sm font-medium text-gray-700 hover:text-blue-600" onClick={() => setMobileMenuOpen(false)}>
                 Features
               </a>
-              <a href="#about" className="text-sm font-medium text-gray-700 hover:text-red-600" onClick={() => setMobileMenuOpen(false)}>
+              <a href="#about" className="text-sm font-medium text-gray-700 hover:text-blue-600" onClick={() => setMobileMenuOpen(false)}>
                 About
               </a>
-              <a href="#contact" className="text-sm font-medium text-gray-700 hover:text-red-600" onClick={() => setMobileMenuOpen(false)}>
+              <a href="#contact" className="text-sm font-medium text-gray-700 hover:text-blue-600" onClick={() => setMobileMenuOpen(false)}>
                 Contact
               </a>
               <a
                 href="#contact"
-                className="bg-red-600 hover:bg-red-700 text-white text-sm font-medium px-6 py-2 rounded-lg text-center transition-colors"
+                className="bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium px-6 py-2 rounded-lg text-center transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Get Started
@@ -86,7 +86,7 @@ function App() {
             <div className="max-w-2xl">
               <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight">
                 Build Something
-                <span className="text-red-400"> Amazing</span>
+                <span className="text-blue-400"> Amazing</span>
               </h1>
               <p className="mt-6 text-lg md:text-xl text-gray-200">
                 A modern, clean starting point for your next project.
@@ -95,7 +95,7 @@ function App() {
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
                 <a
                   href="#features"
-                  className="bg-red-600 hover:bg-red-700 text-white font-medium px-8 py-3 rounded-lg text-center transition-colors"
+                  className="bg-blue-600 hover:bg-blue-700 text-white font-medium px-8 py-3 rounded-lg text-center transition-colors"
                 >
                   Explore Features
                 </a>
@@ -134,8 +134,8 @@ function App() {
                   }}
                 />
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="bg-red-100 p-2 rounded-lg">
-                    <Zap className="text-red-600" size={24} />
+                  <div className="bg-blue-100 p-2 rounded-lg">
+                    <Zap className="text-blue-600" size={24} />
                   </div>
                   <h3 className="text-xl font-bold text-gray-900">Lightning Fast</h3>
                 </div>
@@ -156,8 +156,8 @@ function App() {
                   }}
                 />
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="bg-red-100 p-2 rounded-lg">
-                    <Shield className="text-red-600" size={24} />
+                  <div className="bg-blue-100 p-2 rounded-lg">
+                    <Shield className="text-blue-600" size={24} />
                   </div>
                   <h3 className="text-xl font-bold text-gray-900">Type Safe</h3>
                 </div>
@@ -178,8 +178,8 @@ function App() {
                   }}
                 />
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="bg-red-100 p-2 rounded-lg">
-                    <BarChart3 className="text-red-600" size={24} />
+                  <div className="bg-blue-100 p-2 rounded-lg">
+                    <BarChart3 className="text-blue-600" size={24} />
                   </div>
                   <h3 className="text-xl font-bold text-gray-900">Fully Responsive</h3>
                 </div>
@@ -216,21 +216,21 @@ function App() {
                   accessibility, and responsive design.
                 </p>
                 <p className="mt-4 text-gray-700">
-                  The layout standards are documented in <code className="bg-gray-100 px-2 py-1 rounded text-sm font-mono text-red-600">layout.md</code>,
+                  The layout standards are documented in <code className="bg-gray-100 px-2 py-1 rounded text-sm font-mono text-blue-600">layout.md</code>,
                   which defines the spacing, typography, color system, and component patterns
                   used throughout the site.
                 </p>
                 <ul className="mt-6 space-y-3">
                   <li className="flex items-center gap-3 text-gray-700">
-                    <Zap className="text-red-600 flex-shrink-0" size={20} />
+                    <Zap className="text-blue-600 flex-shrink-0" size={20} />
                     Vite + React for fast development
                   </li>
                   <li className="flex items-center gap-3 text-gray-700">
-                    <Shield className="text-red-600 flex-shrink-0" size={20} />
+                    <Shield className="text-blue-600 flex-shrink-0" size={20} />
                     TypeScript for type safety
                   </li>
                   <li className="flex items-center gap-3 text-gray-700">
-                    <BarChart3 className="text-red-600 flex-shrink-0" size={20} />
+                    <BarChart3 className="text-blue-600 flex-shrink-0" size={20} />
                     Tailwind CSS for responsive styling
                   </li>
                 </ul>
@@ -268,7 +268,7 @@ function App() {
                     <input
                       type="text"
                       id="name"
-                      className="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-transparent"
+                      className="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent"
                       placeholder="Your name"
                     />
                   </div>
@@ -279,7 +279,7 @@ function App() {
                     <input
                       type="email"
                       id="email"
-                      className="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-transparent"
+                      className="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent"
                       placeholder="your@email.com"
                     />
                   </div>
@@ -290,13 +290,13 @@ function App() {
                     <textarea
                       id="message"
                       rows={4}
-                      className="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-transparent resize-none"
+                      className="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent resize-none"
                       placeholder="Your message..."
                     />
                   </div>
                   <button
                     type="submit"
-                    className="w-full bg-red-600 hover:bg-red-700 text-white font-medium px-6 py-3 rounded-lg transition-colors"
+                    className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg transition-colors"
                   >
                     Send Message
                   </button>
@@ -306,8 +306,8 @@ function App() {
               {/* Contact Info */}
               <div className="space-y-8">
                 <div className="flex items-start gap-4">
-                  <div className="bg-red-100 p-3 rounded-lg flex-shrink-0">
-                    <Mail className="text-red-600" size={24} />
+                  <div className="bg-blue-100 p-3 rounded-lg flex-shrink-0">
+                    <Mail className="text-blue-600" size={24} />
                   </div>
                   <div>
                     <h3 className="text-lg font-bold text-gray-900">Email</h3>
@@ -315,8 +315,8 @@ function App() {
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <div className="bg-red-100 p-3 rounded-lg flex-shrink-0">
-                    <Phone className="text-red-600" size={24} />
+                  <div className="bg-blue-100 p-3 rounded-lg flex-shrink-0">
+                    <Phone className="text-blue-600" size={24} />
                   </div>
                   <div>
                     <h3 className="text-lg font-bold text-gray-900">Phone</h3>
@@ -324,8 +324,8 @@ function App() {
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <div className="bg-red-100 p-3 rounded-lg flex-shrink-0">
-                    <MapPin className="text-red-600" size={24} />
+                  <div className="bg-blue-100 p-3 rounded-lg flex-shrink-0">
+                    <MapPin className="text-blue-600" size={24} />
                   </div>
                   <div>
                     <h3 className="text-lg font-bold text-gray-900">Location</h3>
